@@ -9,7 +9,7 @@ bindings.push {
 
 
 unload = () ->
-  bindings.pop "comment"
+  return -- Nothing to unload.
 
 return {
   info:
